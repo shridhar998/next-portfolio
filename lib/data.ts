@@ -4,7 +4,7 @@ import Project1 from "@/public/project1.jpg";
 import Project2 from "@/public/project2.png";
 import Expereince1 from "@/public/business-logo.png";
 import Expereince2 from "@/public/exp2.jpg";
-import Expereince3 from "@/public/giva-logo.jpeg";
+import Expereince3 from "@/public/giva-logo.jpg";
 
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 
