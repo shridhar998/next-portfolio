@@ -4,6 +4,7 @@ import Projects from '@/components/projects'
 import SectionDivider from '@/components/section-divider'
 import Experiences from '@/components/experiences'
 import Skills from '@/components/skills'
+import Educations from '@/components/educations'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Intro/>
       <SectionDivider/>
       <Experiences/>
+      <Educations/>
       <Projects/>
       <Skills/>
     </main>

@@ -4,6 +4,7 @@ import Project1 from "@/public/project1.jpg";
 import Project2 from "@/public/project2.png";
 import Expereince1 from "@/public/business-logo.png";
 import Expereince2 from "@/public/exp2.jpg";
+import Education from "@/public/IIT-Logo.jpg";
 
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -19,6 +20,10 @@ export const links = [
   {
     name: "Experience",
     hash: "#experience",
+  },
+  {
+    name: "Education",
+    hash: "#educations",
   },
   {
     name: "Projects",
@@ -50,6 +55,14 @@ export const experiencesData = [
     description: "Developed an Android Chat application from scratch, for the startup. Implemented features such as texting as well as image or pdf attachment in the chat. Integrated Quickblox Chat API and SDK for the backend.",
      tags: ["React Native", "Expo", "Android Studio","Quickblox API"],
     imageUrl: Expereince2,
+  },
+] as const;
+
+export const educationData = [
+  {
+    title: "Indian Institute of Technology (BHU), Varanasi",
+    description: "B. Tech in Chemical Engineering, 8.71 CPI",
+    imageUrl: Education,
   },
 ] as const;
 
