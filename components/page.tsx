@@ -112,7 +112,7 @@ export default function Intro() {
                   delay:0.7
                 }}
                 className='text-2xl text-slate-950'>
-                 Hi, I'm <span className='font-bold'> Shridhar.</span>
+                 Hi{","} I&apos;m <span className='font-bold'> Shridhar.</span>
             </motion.span>
             <br/>
             <motion.span 

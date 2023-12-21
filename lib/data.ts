@@ -4,6 +4,7 @@ import Project1 from "@/public/project1.jpg";
 import Project2 from "@/public/project2.png";
 import Expereince1 from "@/public/business-logo.png";
 import Expereince2 from "@/public/exp2.jpg";
+import Expereince3 from "@/public/giva-logo.jpg";
 import Education from "@/public/IIT-Logo.jpg";
 
 // import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -41,6 +42,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "Software Engineer",
+    company:"Giva | Remote (Sep 2023 - Present)",
+    description:
+      "Currently working as a SDE-1 here. My stack includes Next JS, Tailwind CSS, Material UI, React Native, React.js.",
+    tags: ["Next JS","Tailwind CSS","React Native","Material UI","React JS"],
+    imageUrl: Expereince3,
+  },
   {
     title: "Freelance Full-Stack Developer",
     company:"Suman Jewellers | Remote (Jun 2023 - July 2023)",
