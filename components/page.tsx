@@ -70,7 +70,7 @@ export default function Intro() {
           }}
           >
           <Link 
-          href='https://drive.google.com/file/d/1lJF5osyqnqBIUuC3ocHib5bqVXqpcSox/view?usp=sharing'
+          href='https://drive.google.com/file/d/1ZwriCK1lg-yzeRbYjIi65fyaFnD8lOvr/view?usp=sharing'
           className='bg-white text-gray-900 border-gray-950 border hover:bg-[#c3eeee] px-14 py-3 flex items-center justify-center gap-2 rounded-full '>
             Download CV <HiDownload/>
           </Link>
